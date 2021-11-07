@@ -1,0 +1,78 @@
+.ourteam {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &_title {
+        margin-bottom: 50px;
+        color: #2F2F2F;
+        text-align: center;
+    }
+
+    &_list {
+        display: flex;
+        justify-content: center;
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-item:not(:last-child){
+            margin-right: 140px;
+        }
+
+        &-title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 46px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #2F2F2F;
+            margin-top: 25px;
+        }
+
+        &-job {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+            color: #828282;
+            width: 240px;
+        }
+    }
+}
+
+.eleanor::before {
+    content: "";
+    width: 245px;
+    height: 245px;
+    display: inline-block;
+
+    background-image: url('../images/eleanor.png');
+    background-repeat: no-repeat;
+    background-size: 245px 245px;
+}
+.jane::before {
+    content: "";
+    width: 245px;
+    height: 245px;
+    display: inline-block;
+
+    background-image: url('../images/jane.png');
+    background-repeat: no-repeat;
+    background-size: 245px 245px;
+}
+.cody::before {
+    content: "";
+    width: 245px;
+    height: 245px;
+    display: inline-block;
+
+    background-image: url('../images/cody.png');
+    background-repeat: no-repeat;
+    background-size: 245px 245px;
+}

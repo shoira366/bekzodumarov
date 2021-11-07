@@ -1,0 +1,46 @@
+.branding {
+    margin-top: 50px;
+
+    &_title {
+        color: #000000;
+        width: 285px;
+        margin-bottom: 40px;
+    }
+
+    &_list {
+        display: flex;
+        &-item {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 54px;
+        }
+        &-item:not(:last-child){
+            margin-right: 80px;
+        }
+        &-link{
+            color: #828282;
+        }
+    }
+}
+.yellow-border{
+    color: #EEBF63;
+    border-bottom: 5px solid #EEBF63;
+}
+
+.brand-port {
+    margin-top: 30px;
+}
+
+.inst-box {
+    margin-right: 30px;
+}
+
+.sec-ins-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project_img-box {
+    flex-wrap: wrap;
+}

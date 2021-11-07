@@ -1,0 +1,45 @@
+.mywork {
+    &_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 45px;
+        color: #000000;
+        width: 1110px;
+        margin-bottom: 50px;
+    }
+
+    &_img-box {
+        background: #D1CDDF;
+        border-radius: 25px;
+        width: 1110px;
+        height: 416px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 38px;
+    }
+}
+.video-box{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.howiwork {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    right: 0;
+}
+
+.iframe-video {
+    border-radius: 25px;
+}

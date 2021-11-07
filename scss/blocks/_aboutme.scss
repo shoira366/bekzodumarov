@@ -1,0 +1,138 @@
+.aboutme {
+    display: flex;
+    padding-bottom: 126px;
+    margin-top: 76px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &_box {
+        margin-right: 65px;
+    }
+
+    &_title {
+        margin-bottom: 42px;
+        width: 507px;
+    }
+
+    &_text {
+        width: 482px;
+        margin-bottom: 65px;
+    }
+
+    &_list {
+        display: flex;
+        align-items: center;
+
+        &-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            color: #828282;
+        }
+
+        &-item {
+            margin-right: 19px;
+            opacity: 0.4;
+            &:first-child{
+                margin-right: 22px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-link {
+            opacity: 0.4;
+        }
+    }
+
+    &_btn-box {
+        display: flex;
+        margin-top: 27px;
+    }
+
+    &_write {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        background: #EEBF63;
+        border-radius: 10px;
+        padding: 16px 21px;
+        border: none;
+        margin-right: 30px;
+
+        &::before {
+            content: "";
+            width: 20px;
+            height: 16px;
+            display: inline-block;
+
+            background-image: url('../images/letter.svg');
+            background-repeat: no-repeat;
+            background-size: 20px 16px;
+            margin-right: 15px;
+        }
+    }
+
+    &_download {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #2F2F2F;
+        border: 2px solid #EEBF63;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 16px 22px;
+        background: none;
+        display: flex;
+        align-items: center;
+
+        &::before {
+            content: "";
+            width: 14px;
+            height: 20px;
+            display: inline-block;
+
+            background-image: url('../images/download.svg');
+            background-repeat: no-repeat;
+            background-size: 14px 20px;
+            margin-right: 15px;
+        }
+    }
+}
+
+.hey {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #828282;
+    margin-bottom: 16px;
+}
+
+.yellow {
+    color: #EEBF63;
+}
+
+.img-box {
+    padding-bottom: 45px;
+    background-image: url('../images/pinpoint.svg');
+    background-repeat: no-repeat;
+    background-size: 245px 179px;
+    background-position: bottom 16px left -40px
+}

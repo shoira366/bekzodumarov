@@ -1,0 +1,82 @@
+.aboutbekzod {
+    margin-bottom: 50px;
+    margin-top: 71px;
+
+    &_big-box {
+        display: flex;
+        align-items: center;
+        margin-bottom: 61px;
+
+        &::before {
+            content: "";
+            width: 380px;
+            height: 497px;
+            display: inline-block;
+
+            background-image: url('../images/helpingbekzod.png');
+            background-repeat: no-repeat;
+            background-size: 380px 497px;
+            margin-right: 93px;
+        }
+    }
+
+    &_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_title {
+        color: #EEBF63;
+        margin-bottom: 10px;
+    }
+
+    &_job {
+        margin-bottom: 15px;
+    }
+
+    &_himself {
+        width: 636px;
+        margin-bottom: 20px;
+    }
+
+    &_email-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 26px;
+    }
+
+    &_email {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #2F2F2F;
+    }
+
+    &_list {
+        display: flex;
+
+        &-item:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        &-item:first-child {
+            background: linear-gradient(180deg, #2AABEE 0%, #229ED9 99.26%);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.tools {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #151517;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}

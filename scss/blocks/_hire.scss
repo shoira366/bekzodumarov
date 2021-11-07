@@ -1,0 +1,46 @@
+.hire {
+    margin-bottom: 120px;
+
+    &_title {
+        text-align: center;
+        margin-bottom: 101px;
+    }
+
+    &_list {
+        display: flex;
+        justify-content: center;
+
+        &-item {
+            margin-right: 39px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-img {
+            background-image: url('../images/background-img.svg');
+            background-repeat: no-repeat;
+            background-size: 240px 313px;
+            background-position: center;
+        }
+
+        &-text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            /* identical to box height, or 150% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #2F2F2F;
+            margin-top: 20px;
+        }
+    }
+}
